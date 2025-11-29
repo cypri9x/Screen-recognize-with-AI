@@ -6,7 +6,7 @@ import keyboard
 import pyttsx3
 import threading
 
-API_KEY = "AIzaSyDDSLUPrLHAhZQ27zYr9gG6_dHDEUdutjc"
+API_KEY = "API KEY"
 
 genai.configure(api_key=API_KEY)
 
@@ -68,3 +68,4 @@ def start_program():
             time.sleep(1)  
 
 start_program()
+
